@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+   border: green dashed 2px;
+}
+
+header{
+    width: 1200px;
+    /*height: 100px; */
+    border: red solid 5px;
+}
+nav{
+    border: 1px yellowgreen solid;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+section{
+    border: rgb(128, 128, 128) solid;
+    height: 100px;
+}
+#h_left{
+    width: 200px;
+    float: left;
+}
+ul{
+    list-style-type: none;
+    
+}
+
+li{
+    background-color: rgba(29, 189, 96, 0.938);
+    display: inline;
+    padding: 1rem;
+}
+nav a{
+    text-decoration: none;
+    margin: 1rem;
+}
+aside {
+    border: solid green;
+    width: 300px;
+    float: left;
+    height: 300px;
+}
+main{
+    border: blue solid;
+    height: 300px;
+    font-size: 20px;
+}
+main section {        
+    font-size: .8em;
+        width: 800px;
+        float: right;
+}
+    footer{
+        height: 10vh;
+        border: purple solid;
+        padding: 1rem 10rem;
+    }
+
