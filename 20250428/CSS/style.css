@@ -1,0 +1,12 @@
+/* 
+selector 
+{ propiedad1: valor;
+ propiedad2: valor;
+ }
+ */
+ body {background: rgb(224, 224, 176);}
+ header {border:4px dashed; color: rgb(19, 238, 85); background: lightcyan;}
+ main{border: 2px solid; color: orangered; background: lightblue;}
+ footer{border: 3px dotted; color: rgb(9, 11, 107); background: lightgreen;}
+ h1 { color: darkred}
+ p{color:red;}
