@@ -1,0 +1,20 @@
+section{
+    display: flex;
+    background: purple;
+}
+article{
+    height: 100px;
+    width: 100px;
+    background: orange;
+}
+section,article{
+    border: solid 3px;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+#izq{justify-content: start;}
+#der{justify-content: end;}
+#cen{justify-content: center;}
+#bet{justify-content: space-between;}
+#aro{justify-content: space-around;}
+#eve{justify-content: space-evenly;}
