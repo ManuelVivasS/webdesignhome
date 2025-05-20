@@ -9,7 +9,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    flex-direction: row-reverse
+    flex-direction: row-reverse;
 }
 header{
     background: #019D9D; width: 100%; margin-bottom: 1rem;
@@ -17,6 +17,22 @@ header{
 aside{
     background: #FFF702;width: 28%;
 }
+aside li {
+    list-style: none;
+}
+aside a {
+    text-decoration: none;
+    background: lightgreen;
+    margin: 1rem 0;
+    display: flex;
+    padding: 1rem;
+    box-shadow: 2px 2px 5px black;
+}
+aside a:hover {
+    background: black; color: white;
+}
+
+
 main { background: #A650C2; width: 70%; padding: 2rem;}
 footer {
     background: #FF7502; height: 80px;
