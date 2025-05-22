@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box; padding: 0; margin: 0;
+}
+body {
+    border: solid black ;
+}
+header {
+    border: solid green;
+    background: lightseagreen;
+    color: antiquewhite;
+   }
+   main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background: darkgreen;
+    border: solid 2px lightcyan;
+    gap: 10px;
+   }
+   section {
+    display: grid;
+    border: solid darkslateblue;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 6px;
+    background: lightskyblue;
+    margin: 2px;
+    height: 300px;
+    width: 450px;
+    gap: 10px;
+   }
+   article {
+    border: solid black;
+    border-radius: 10px;
+    margin: 2px;
+    background: yellow;
+    width: 40px;
+    height: 40px;
+   
+   }
+   .sec_1 {justify-items:start;}
+   .sec_2 { justify-items: end;}
+   .sec_3 { justify-items: center;}
+   .sec_4 { align-items: flex-start; }
+   .sec_5 { align-items: end;}
+   .sec_6 { align-items: center;}
+   .sec_7 { justify-items: stretch; }
+   .sec_8 { align-items: stretch;}
+   .sec_1 article { height: unset;}
+   .sec_2 article { height: unset;}
+   .sec_3 article { height: unset;}
+   .sec_4 article { width: unset;}
+   .sec_5 article { width: unset;}
+   .sec_6 article { width: unset;}
+   .sec_7 article {width: unset; height: unset;}
+   .sec_8 article {width: unset; height: unset;}

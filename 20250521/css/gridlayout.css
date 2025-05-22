@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box; padding: 0; margin: 0;
+}
+body {
+    display: grid;
+    grid-template-columns: repeat( 1fr, 3fr);
+    border: black 2px;
+    background: black;
+}
+
+header { background: orangered;}
+
+nav {
+
+    background: yellow;
+}
+ul {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    height: 25px;
+
+}
+li {
+    background: bisque;
+    border: 1rem;
+    border-radius: 1rem;
+    margin: 2px;
+    list-style: none;
+}
+aside {
+    display: grid;
+   background: green;
+  }
+main {
+    background: lightgreen;
+    color:orangered;
+    border: 1rem darkgreen;    
+}
+
+footer {
+    background: white;
+    
+}
